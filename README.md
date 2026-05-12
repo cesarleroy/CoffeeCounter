@@ -4,7 +4,7 @@ Aplicación Android desarrollada con **Jetpack Compose** para la Unidad 2 del cu
 ## Características
 * **Manejo de Estado (State)**: Uso de `remember` y `mutableStateOf` para gestionar y actualizar el contador numérico en tiempo real.
 * **State Hoisting**: Separación arquitectónica de la lógica (el estado del contador) y la interfaz gráfica (UI) siguiendo las mejores prácticas.
-* **UI Dinámica y Condicionales**: Interfaz reactiva que cambia la imagen, oculta el botón de "Añadir taza" y despliega un mensaje de advertencia al llegar al límite de 10 tazas.
+* **UI Dinámica y Condicionales**: Interfaz reactiva que cambia la imagen, oculta el botón de "Añadir taza" y despliega un mensaje de advertencia en color rojo al llegar al límite de 10 tazas.
 
 ## 📄 Archivo kotlin
 La lógica principal de la interfaz y la implementación de **Jetpack Compose** se encuentra en el siguiente archivo:

@@ -42,10 +42,14 @@ class MainActivity : ComponentActivity() {
         }
     }
 }
-
-val Coffee = Color(0xFFA06A45) // Botón Añadir
-val BackgroundColor = Color(0xFFFCF9F6) // Fondo
-val LightBrown = Color(0xFFE8E0D5) // Botón Reiniciar
+// Botón Añadir
+val Coffee = Color(0xFFA06A45)
+// Fondo
+val BackgroundColor = Color(0xFFFCF9F6)
+// Botón Reiniciar
+val LightBrown = Color(0xFFE8E0D5)
+// Alerta
+val Alert = Color(0xFFE20000)
 
 @Composable
 fun CoffeeCounterApp() {
@@ -94,7 +98,7 @@ fun CoffeeCounterScreen(
         if (count >= 10) {
             Text(
                 text = "¡Demasiada cafeína!",
-                color = Coffee,
+                color = Alert,
                 fontSize = 22.sp,
                 fontWeight = FontWeight.Bold,
                 modifier = Modifier.padding(bottom = 16.dp)
